@@ -1,0 +1,9 @@
+[submodule "submodules/diff-surfel-rasterization"]
+	path = submodules/diff-surfel-rasterization
+	url = git@github.com:muskie82/diff-surfel-rasterization-with-pose.git
+[submodule "submodules/simple-knn"]
+	path = submodules/simple-knn
+	url = git@github.com:camenduru/simple-knn.git
+[submodule "submodules/depth_anything_v3"]
+	path = submodules/depth_anything_v3
+	url = https://github.com/ByteDance-Seed/depth-anything-3

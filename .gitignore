@@ -1,0 +1,10 @@
+/results 
+__pycache__/
+*.py[cod]
+*.pyo
+/wandb
+/thesis_assets
+dashboard_results.ipynb
+GP.ipynb
+mask_dynamics.ipynb
+notebook.ipynb 
