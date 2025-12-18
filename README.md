@@ -52,7 +52,7 @@ Finally, install the rest of the required packages using the provided YAML file:
 conda env update --file environment.yaml
 ```
 
-### 📂 Datasets
+## 📂 Datasets
 To test the system, please download the following datasets:
 
 **TUM-RGBD Dataset**:
@@ -63,7 +63,7 @@ To test the system, please download the following datasets:
 
 * Download from: [Replica Dataset GitHub](https://github.com/facebookresearch/Replica-Dataset)
 
-### 🚀 Usage
+## 🚀 Usage
 
 **Configuration**
 
@@ -77,7 +77,7 @@ To run the main SLAM script on a TUM dataset sequence (e.g., fr1_desk):
 python surfelSLAM.py --config configs/rgbd/tum/fr1_desk.yaml
 ```
 
-### Running on "In-the-Wild" Videos
+## Running on "In-the-Wild" Videos
 If you want to play with your own data:
 
 1. Place your video file in the demo_videos folder.
@@ -88,7 +88,7 @@ If you want to play with your own data:
 python surfelSLAM.py --config configs/rgb/video/iphone_flowers.yaml
 ```
 
-### 🙏 Acknowledgments
+## 🙏 Acknowledgments
 This project is built upon excellent open-source work. We would like to thank the authors of the following projects:
 
 * [Differential Surfel Rasterization with Pose](https://github.com/muskie82/diff-surfel-rasterization-with-pose/tree/13f0e3c5a31ed004b1eba907a5cc1922052de553)
